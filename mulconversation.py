@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2023/5/10 11:06
 # @Author  : chenhaibing01
-# @Email   : chenhaibing01@baidu.com
 # @File    : mulconversation.py
 # @Software: PyCharm
 
