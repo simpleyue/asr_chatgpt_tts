@@ -33,10 +33,7 @@ class JsonFile:
         :return: Python对象
         """
 
-        # self.file_path = self.file_path + file_name
-        # if not os.path.exists(self.file_path):
-        #     with open(self.file_path, 'w+') as f:
-        #         return []
+
         try:
             with open(self.file_path + file_name, 'r', encoding='utf-8') as f:
                 content = json.load(f)
@@ -49,7 +46,7 @@ class JsonFile:
         写文件
         :return:
         """
-        # self.file_path = self.file_path + file_name
+
         with open(self.file_path + file_name, 'w+', encoding='utf-8') as f:
             json.dump(data, f)
 
