@@ -15,7 +15,6 @@ class TTS:
         print(self.file_path)
 
 
-
     def tts(self,file_path):
         # 文字转语音
         text = "Hello, how are you?"
@@ -23,7 +22,7 @@ class TTS:
         tts.save("output.wa")  # 保存语音为 MP3 文件
 
     # 播放语音
-    # playsound("output.mp3")
+        # playsound("output.mp3")
 
 if __name__ == "__main__":
     tts = TTS()

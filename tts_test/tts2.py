@@ -7,7 +7,7 @@
 import pyttsx3
 
 # 创建 TTS 引擎
-engine = pyttsx3.init(driverName='nsss')
+engine = pyttsx3.init()
 
 # 设置语音参数
 engine.setProperty('rate', 150)  # 语速

@@ -9,7 +9,7 @@ import openai
 from utils.jsonFileUtils import JsonFile
 JF = JsonFile()
 
-openai.api_key = "XXXX"
+openai.api_key = "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"
 
 class ChatGPT:
     """
