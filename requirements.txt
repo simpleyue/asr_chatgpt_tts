@@ -12,3 +12,7 @@ requests==2.30.0
 tqdm==4.65.0
 urllib3==1.26.15
 yarl==1.9.2
+
+sounddevice~=0.4.6
+soundfile~=0.12.1
+gTTS~=2.3.2
