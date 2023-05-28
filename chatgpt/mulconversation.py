@@ -9,7 +9,7 @@ import openai
 from utils.jsonFileUtils import JsonFile
 JF = JsonFile()
 
-openai.api_key = "XXXXX"
+openai.api_key = "XXXXXX"
 
 class ChatGPT:
     """
@@ -74,7 +74,7 @@ class ChatGPT:
 
 if __name__ == "__main__":
     c2 = ChatGPT()
-    c2.ask(3, "用python写一段循环读取txt文档的代码")   #（问题id, 问题）如果是连续的问题，就用相同的问题id
+    c2.ask(3, "我想买个加湿器")   #（问题id, 问题）如果是连续的问题，就用相同的问题id
     # c2.ask(3,"它和谷歌有什么区别")
     # c2.ask(3, "你觉得谁更好")
 

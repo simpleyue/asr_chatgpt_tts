@@ -1,2 +1,3 @@
-recordFile
-messageFile
+recordFile/
+messageFile/
+.DS_Store

@@ -15,7 +15,7 @@ class JsonFile:
         """
         初始化
         """
-        self.file_path = './messageFile/'
+        self.file_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'messageFile/')
 
 
     def creat_file(self):
